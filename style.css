@@ -1,0 +1,15 @@
+*{
+    margin: 2rem;
+    padding: 0;
+}
+thead{
+    background-color: rgb(122, 154, 155);
+}
+table,th,tr,td{
+    border: 1px solid black;
+    
+}
+th{
+    padding: .5rem;
+
+}

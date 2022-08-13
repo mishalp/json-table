@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Equipment-wise details</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">MACHINE NAME</th>
+                <th rowspan="2">MACHINE ID</th>
+                <th rowspan="2">CURRENT</th>
+                <th rowspan="2">VOLTAGE(Volts)</th>
+                <th rowspan="2">POWER FACTOR</th>
+                <th rowspan="2">Active Power(MW)</th>
+                <th rowspan="2">Apparent Power(MVA)</th>
+                <th rowspan="2">Reactive Power(MVAr)</th>
+                <th colspan="3">ENERGY CONSUMED(kWh)</th>
+                <th colspan="3">IDLE TIME</th>
+            </tr>
+            <tr>
+                <th>Today</th>
+                <th>MTD</th>
+                <th>YTD</th>
+                <th>Today</th>
+                <th>MTD</th>
+                <th>YTD</th>
+            </tr>
+        </thead>
+        <tbody id="body">
+
+        </tbody>
+    </table>
+    
+    <script src="script.js" type="module"></script>
+</body>
+</html>
